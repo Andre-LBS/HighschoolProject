@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Test - Webbutveckling">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="André - LBS">
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/chatbox.css">
+
+    <div class="topnav">
+        <a class="line-5" href="../index.html">Home</a>
+        <a class="line-5" href="recordings.html">Episodes</a>
+        <a class="line-5" href="contact.html">Contact</a>
+        <a class="line-5" href="about.html">About</a>
+        <a class="active" href="#comments">Comments</a>
+    </div>
+
+</head>
+
+<body>
+
+    <h1 class="big_h_txt">Sorry, there are no comments available!</h1>
+
+
+    <div class="chat-container">
+        <div class="chat-header">Send a comment!</div>
+        <div class="input-container">
+            <input type="text" class="user-input" id="user-input" placeholder="Type your message...">
+            <button class="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+<!-- Link to the chatbox script -->
+<script src="sendMessage.js"></script>
+</body>
+
+</html>
